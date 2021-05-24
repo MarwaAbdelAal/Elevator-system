@@ -1,0 +1,77 @@
+#ifndef __PORT_H__
+#define __PORT_H__
+
+#include "Main.h"
+
+/* Leds' pins */
+#define LED1_PORT   (GPIO_PORT3_DATA)
+#define LED_1_PORT_dir   (GPIO_PORT3_DIRECTION)
+#define LED_1_PIN       (GPIO_PIN_7)
+
+#define LED2_PORT   (GPIO_PORT3_DATA)
+#define LED_2_PORT_dir   (GPIO_PORT3_DIRECTION)
+#define LED_2_PIN       (GPIO_PIN_6)
+
+//servo
+#define SERVO_PORT   (GPIO_PORT3_DATA)
+#define SERVO_PORT_dir   (GPIO_PORT3_DIRECTION)
+#define SERVO_PIN       (GPIO_PIN_4)
+
+//buttons bins
+#define BUTTON_4down_PORT (GPIO_PORT0_DATA)
+#define BUTTON_4DOWN_PORT_dir (GPIO_PORT0_DIRECTION)
+#define BUTTON_4DOWN_PIN       (GPIO_PIN_0)
+
+#define BUTTON_3up_PORT (GPIO_PORT0_DATA)
+#define BUTTON_3UP_PORT_dir (GPIO_PORT0_DIRECTION)
+#define BUTTON_3UP_PIN       (GPIO_PIN_1)
+
+#define BUTTON_3down_PORT (GPIO_PORT0_DATA)
+#define BUTTON_3DOWN_PORT_dir (GPIO_PORT0_DIRECTION)
+#define BUTTON_3DOWN_PIN       (GPIO_PIN_2)
+
+#define BUTTON_2up_PORT (GPIO_PORT0_DATA)
+#define BUTTON_2UP_PORT_dir (GPIO_PORT0_DIRECTION)
+#define BUTTON_2UP_PIN       (GPIO_PIN_3)
+
+#define BUTTON_2down_PORT (GPIO_PORT0_DATA)
+#define BUTTON_2DOWN_PORT_dir (GPIO_PORT0_DIRECTION)
+#define BUTTON_2DOWN_PIN       (GPIO_PIN_4)
+
+#define BUTTON_1up_PORT (GPIO_PORT0_DATA)
+#define BUTTON_1UP_PORT_dir (GPIO_PORT0_DIRECTION)
+#define BUTTON_1UP_PIN       (GPIO_PIN_5)
+
+#define BUTTON_1down_PORT (GPIO_PORT0_DATA)
+#define BUTTON_1DOWN_PORT_dir (GPIO_PORT0_DIRECTION)
+#define BUTTON_1DOWN_PIN       (GPIO_PIN_6)
+
+#define BUTTON_Gup_PORT (GPIO_PORT0_DATA)
+#define BUTTON_GUP_PORT_dir (GPIO_PORT0_DIRECTION)
+#define BUTTON_GUP_PIN       (GPIO_PIN_7)
+
+#define BUTTON4_PORT (GPIO_PORT2_DATA)
+#define BUTTON4_PORT_dir (GPIO_PORT2_DIRECTION)
+#define BUTTON_4_PIN       (GPIO_PIN_0)
+
+#define BUTTON3_PORT (GPIO_PORT2_DATA)
+#define BUTTON3_PORT_dir (GPIO_PORT2_DIRECTION)
+#define BUTTON_3_PIN       (GPIO_PIN_1)
+
+#define BUTTON2_PORT (GPIO_PORT2_DATA)
+#define BUTTON2_PORT_dir (GPIO_PORT2_DIRECTION)
+#define BUTTON_2_PIN       (GPIO_PIN_2)
+
+#define BUTTON1_PORT (GPIO_PORT2_DATA)
+#define BUTTON1_PORT_dir (GPIO_PORT2_DIRECTION)
+#define BUTTON_1_PIN       (GPIO_PIN_3)
+
+#define BUTTONg_PORT (GPIO_PORT2_DATA)
+#define BUTTONg_PORT_dir (GPIO_PORT2_DIRECTION)
+#define BUTTON_G_PIN       (GPIO_PIN_4)
+
+// 7-Segment port
+#define sevenSeg_PORT_dir (GPIO_PORT1_DIRECTION) 
+#define SevenSeg_PORT (GPIO_PORT1_DATA) 
+
+#endif // __PORT_H__
